@@ -1,0 +1,316 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header style start */
+.headersection {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navtitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px 85px 150px;
+}
+
+.navheading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+/* nav style end */
+
+
+.headerbanner h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #131313;
+}
+
+.headerbanner p {
+    text-align: center;
+    color: #727272;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.bntalign {
+    text-align: center;
+}
+
+.bntprimary {
+    width: 160px;
+    height: 55px;
+
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
+.bntprimary a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerbanner img {
+    width: 1020px;
+    height: 450px;
+    border-radius: 8px;
+    padding: 15px 160px 30px 160px;
+}
+
+/* header style start */
+
+/* main style start */
+
+.ourfeatures {
+    margin: 85px 140px 90px 180px;
+}
+
+.features {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+
+}
+
+.featureimages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.images img {
+    width: 219px;
+    height: 219px;
+    border-radius: 8px;
+
+}
+
+.featuretite {
+    font-weight: 500;
+    font-size: 45px;
+    color: #000;
+}
+
+.info1 {
+    color: #727272;
+}
+
+.info2 {
+    color: #FF900E;
+}
+
+.featuredetails {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    color: #727272;
+    font-size: 15px;
+
+}
+
+/* More feature */
+
+.moreinfos {
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.line {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.verticalline {
+    width: 5px;
+    height: 108px;
+    background: #FF900E;
+}
+
+.infotitle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.infodetails {
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.moreimage img {
+    width: 532px;
+    height: 800px;
+}
+
+.blog {
+    box-shadow: 2px 2px 8px rgb(228, 227, 225);
+    margin-bottom: 25px;
+    padding: 20px 25px 15px 20px;
+    border-radius: 10px;
+    width: 380px;
+    height: 100px;
+}
+
+.blogtitel {
+    margin-bottom: 7px;
+
+}
+
+.blogdetails {
+    font-size: 14px;
+    color: #727272;
+}
+
+
+.bntprimary1 {
+    width: 240px;
+    height: 140px;
+
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    right: 195px;
+    top: -95px;
+
+}
+
+.bntspan {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.bntprimary1 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* some fact style start */
+
+.facts {
+
+    margin-left: 150px;
+}
+
+.facttitel,
+.sponsporstitel {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.factdetails,
+.sponsporsdetails {
+    color: #727272;
+}
+
+
+.factsinfomargin {
+    margin: 90px 200px;
+}
+
+.factsinfo {
+    display: flex;
+    gap: 90px;
+}
+
+.fact {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #FF900E;
+    border-radius: 7px;
+    padding: 25px 15px 70px 15px;
+}
+
+.facticon,
+.factcount,
+.factcountinfo {
+    text-align: center;
+}
+
+.factcount {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.factcountinfo {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+/* our sponspors style star */
+
+.oursponsporsmargin {
+    margin: 50px 200px 100px 160px;
+}
+
+.sponspors {
+    text-align: center;
+}
+
+.oursponspors {
+    display: flex;
+    gap: 120px;
+}
+
+.sponspor img {
+    width: 108px;
+    height: 38px;
+}
+
+
+
+/* our sponspors style end */
+
+
+
+/* footer style star */
+
+.footer {
+    text-align: center;
+    color: #424242;
+    background: #FFF4E7;
+    margin: 0px 160px 140px 160px;
+    padding: 25px 20px;
+    border-radius: 5px;
+}
